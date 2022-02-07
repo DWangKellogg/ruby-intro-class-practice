@@ -12,14 +12,29 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
 #puts ranks.product(suits)
 
-for suits_list in suits
-end 
+# for suits_list in suits
+# end 
 
-for ranks_list in ranks
-    puts "#{ranks_list} #{suits_list}"
-end 
+# for ranks_list in ranks
+#     puts "#{ranks_list} #{suits_list}"
+# end 
 
 
+for clubs in ranks
+    puts "#{clubs} #{suits[0]}"
+end
 
+for diamonds in ranks
+   puts "#{diamonds} #{suits[1]}"
+end
+
+for hearts in ranks
+    puts "#{hearts} #{suits[2]}"
+ end
+ 
+ for spades in ranks
+    puts "#{spades} #{suits[3]}"
+ end
+ 
 
 
