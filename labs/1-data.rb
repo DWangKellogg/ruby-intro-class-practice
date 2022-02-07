@@ -10,6 +10,12 @@
 # then write them out to the screen. Show the total
 # as well.
 
+dice1 = rand(1..6)
+dice2 = rand(1..6)
+total = dice1 + dice2
+puts "Hello the total roll of the two dice is #{total}"
+puts "The first dice is #{dice1} and second is #{dice2}"
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)

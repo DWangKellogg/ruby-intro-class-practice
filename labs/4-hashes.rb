@@ -26,3 +26,16 @@ weather_data = {
     { temperature: 70, conditions: "Partly Cloudy" }
   ]
 }
+
+# current_temp = weather_data[:current][:temperature]
+# current_condition = weather_data[:current][:conditions]
+
+
+# puts  "#{weather_data[:forecast][0][:conditions]}" 
+puts "Currently it is #{weather_data[:current][:temperature]}. Tomorrow it will be #{weather_data[:forecast][0][:temperature]} and #{weather_data[:forecast][0][:conditions]}."
+puts "The next day, we will see #{weather_data[:forecast][1][:conditions]}, with a temperature of #{weather_data[:forecast][1][:temperature]}."
+
+#pull from array = position (unlike hash can pull with name)
+#{weather_data[:forecast][1][:conditions]}, [1] ] forecast [{}]
+#array = list of things
+#{ = hash} = Hashes are lists of *key-value pairs*. complex objects
